@@ -7,7 +7,7 @@ Développement d’un emulateur MIPS
 exécutez my_emul avec la commande `./my_emul_mips.`
 Plusieurs choix s’offrent à vous:
 
-## Pour exécuter un fichier txt contenant votre code MIPS
+### Pour exécuter un fichier txt contenant votre code MIPS
 Pour cela rien de plus simple:
 
 - mettez les fichiers à tester dans le dossier test/. Avec le format .txt
@@ -35,8 +35,8 @@ Afin de rendre possible l’éxécution du code, il vous faudra réspecter la sy
 MIPS. C’est à dire:
 
 - Mettre le nom des instructions en majuscule (ADD - ok / add - not ok)
-- Donnez le nom des registres sous la forme suivante: $x avec x le numéro
-de registre 0 <= x <= 31
+- Donnez le nom des registres sous la forme suivante: `$x` avec `x` le numéro
+de registre (0 <= x <= 31)
 - Pour les commentaires, utilisez le caractère ‘#’
 - Séparez les registres par le caractère ‘,’ et les instructions des registres par
 le caractère espace
