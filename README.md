@@ -7,7 +7,8 @@ Développement d’un emulateur MIPS
 exécutez my_emul avec la commande `./my_emul_mips.`
 Plusieurs choix s’offrent à vous:
 
-### Pour exécuter un fichier txt contenant votre code MIPS
+Pour exécuter un fichier txt contenant votre code MIPS
+
 Pour cela rien de plus simple:
 
 - mettez les fichiers à tester dans le dossier test/. Avec le format .txt
