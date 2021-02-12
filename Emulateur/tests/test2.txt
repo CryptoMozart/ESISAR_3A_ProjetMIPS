@@ -1,0 +1,14 @@
+ADDI $5,$0,15
+ADDI $7,$0,4
+ADDI $8,$0,19
+
+#Test avec AND
+AND $10,$0,$5
+AND $11,$7,$8
+
+#Test avec OR
+OR $12,$7,$0
+OR $13,$7,$8
+
+Test avec XOR
+XOR $14,$5,$13

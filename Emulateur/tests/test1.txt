@@ -1,0 +1,25 @@
+#Simple test d'addition
+ADDI $1,$0,1
+ADDI $2,$0,7
+ADD $3,$1,$2
+ADD $4,$3,$2
+SUB $5,$4,$1
+
+#test avec des négatifs
+ADDI $10,$0,-2
+ADDI $11,$0,-3
+ADD $12,$10,$11
+
+#Test avec MULT: on lit les bits de poids forts et de poids faibles dans HI et LO
+MULT $1,$2
+
+#Test avec DIV: on écrit le quotient dans LO et le reste dans HI
+MFLO $20 
+
+#MFLO va chercher la valeur dans le registre LO et le mettre dans le registre 20
+ADDI $21,$0,3
+DIV $20,$21 
+
+#Test avec SLL et SRL
+SLL $25,$3,1
+SRL $26,$25,2

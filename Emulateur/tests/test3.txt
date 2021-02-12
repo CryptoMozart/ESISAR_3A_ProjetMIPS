@@ -1,0 +1,6 @@
+#Test avec LW & SW 
+ADDI $1,$0,2000
+ADDI $3,$0,7
+SW $3,4($0)
+LW $4,4($0)
+NOP
